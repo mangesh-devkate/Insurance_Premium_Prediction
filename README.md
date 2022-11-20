@@ -15,5 +15,4 @@ The classical machine learning tasks like Data Exploration, Data Cleaning, Featu
 Some Famous Algorithms: - Multiple Linear Regression, Decision tree Regression and Gradient Boosting, Decision tree, Regression
 
 Results: 
-
 You have to build a solution that should able to predict the premium of the personal for health insurance
