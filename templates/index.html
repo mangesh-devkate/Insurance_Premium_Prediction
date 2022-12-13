@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Form For Insurance Premium Prediction</h1>
+
+    <form action="/prediction" method='POST'>
+
+        <label>age</label>
+        <input type="text" name="age" placeholder="Enter age">
+        <br>
+        <br>
+
+        <label>sex</label>
+        <select name="sex">
+            <option value="1">male</option>
+            <option value="0">female</option>
+        </select>
+        <br>
+        <br>
+
+        <label>BMI</label>
+        <input type="text" name="bmi" placeholder="enter BMI">
+        <br>
+        <br>
+
+        <label>children</label>
+        <select name="children">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <br>
+
+        <label>smoker</label>
+            <select name="smoker">
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </select>
+        <br>
+        <br>
+
+        <label>region</label>
+        <select name="region">
+            <option value="0">northeast</option>
+            <option value="1">northwest</option>
+            <option value="2">southeast</option>
+            <option value="3">southwest</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit">
+        <br><br>
+        {{result}}
+
+
+    </form>
+    
+</body>
+</html>
