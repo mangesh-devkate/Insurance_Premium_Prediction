@@ -15,8 +15,6 @@ Some Famous Algorithms: - Linear Regression, Decision tree, Random Forest, Agabo
 Results: 
 You have to build a solution that should able to predict the premium of the personal for health insurance
 
-Deployement Link:
-
 Web Interface:
 
 Libraries Used:
